@@ -4,10 +4,18 @@ import Footer from '@/components/Footer'
 import NextTopLoader from 'nextjs-toploader'
 
 
-export const metadata = {
-  title: 'NexaCraft Agency Website',
-  description: 'A Agency Website with NextJs 13 - SEO Friendly & REST API',
+// Dynamic metadata
+export async function generateMetadata(){
+
+  // SEO Data Fetch
+  return {
+    title: 'NexaCraft Agency Website',
+    description: 'A Agency Website with NextJs 13 - SEO Friendly & REST API',
+  }
+
 }
+
+
 
 export default function RootLayout({ children }) {
   return (
