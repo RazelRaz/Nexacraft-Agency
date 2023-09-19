@@ -1,7 +1,8 @@
 import './globals.css'
-import SiteNavBar from '@/components/SiteNavBar'
-import Footer from '@/components/Footer'
+
 import NextTopLoader from 'nextjs-toploader'
+import SiteFooter from '@/components/SiteFooter'
+import SiteNavBar from '@/components/SiteNavBar'
 
 
 // Dynamic metadata
@@ -24,7 +25,7 @@ export default function RootLayout({ children }) {
         <NextTopLoader color="#269669" height={3} speed={190}></NextTopLoader>
         <SiteNavBar></SiteNavBar>
           {children}
-        <Footer></Footer>
+        <SiteFooter></SiteFooter>
       </body>
     </html>
   )

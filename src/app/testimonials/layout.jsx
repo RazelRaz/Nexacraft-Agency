@@ -3,7 +3,7 @@ export async function generateMetadata(){
 
     // SEO Data Fetch
     return {
-      title: 'Testimonial',
+      title: 'Team',
     //   description: 'A Agency Website with NextJs 13 - SEO Friendly & REST API',
     }
   
@@ -12,7 +12,7 @@ export async function generateMetadata(){
 const layout = ({children}) => {
     return (
         <div>
-            
+            {children}
         </div>
     );
 };

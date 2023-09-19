@@ -1,11 +1,15 @@
+import Brands from "@/components/Brands";
+import Testimonial from "@/components/Testimonial";
 
 
-const page = () => {
+
+const Page = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+            <Testimonial></Testimonial>
+            <Brands></Brands>
+        </>
     );
 };
 
-export default page;
+export default Page;
