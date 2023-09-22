@@ -8,14 +8,14 @@ import React from 'react';
 
 const page = () => {
   return (
-    <>
+    <div>
       <Hero></Hero>
       <Stats></Stats>
       <HowWorks></HowWorks>
       <FeaturedProject></FeaturedProject>
       <Contacts></Contacts>
       <Brands></Brands>
-    </>
+    </div>
   );
 };
 

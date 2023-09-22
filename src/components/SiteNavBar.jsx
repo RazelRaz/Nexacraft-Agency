@@ -62,7 +62,7 @@ const SiteNavBar = () => {
                 </div>
                 <ul className='hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6'>
                     <li>
-                        <Link className={current==="/"?"text-sm text-green-600 font-bold":"text-sm text-gray-400 hover:text-gray-500 "} href={"/"}>Start</Link>
+                        <Link className={current==="/"?"text-sm text-green-600 font-bold":"text-sm text-gray-400 hover:text-gray-500 "} href={"/"}>Home</Link>
                     </li>
                     <li className='text-gray-300'>
                         <svg className='w-4 h-4 current-fill' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
@@ -115,7 +115,7 @@ const SiteNavBar = () => {
                     <div>
                         <ul>
                             <li className='mb-1'>
-                                <Link className='block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded' href={'/'}>Start</Link>
+                                <Link className='block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded' href={'/'}>Home</Link>
                             </li>
                             <li className='mb-1'>
                                 <Link className='block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded' href={'/team'}>Team</Link>

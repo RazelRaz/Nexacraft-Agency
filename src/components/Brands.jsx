@@ -1,4 +1,19 @@
-const Brands = () => {
+async function getData(){
+    let res = await fetch(process.env.BASE_URL+"api/BrandList")
+
+    if(!res.ok){
+        throw new Error("BrandList Calling Failed")
+    }
+    return res.json();
+
+}
+
+
+const Brands = async () => {
+
+    const data = await getData()
+    console.log(data);
+
     return (
         <section className="py-20">
             <div className="container mx-auto px-4 text-center">

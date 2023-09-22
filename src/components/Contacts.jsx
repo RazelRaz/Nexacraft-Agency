@@ -2,7 +2,7 @@
 const Contacts = () => {
     return (
         <section className="py-20 bg-gray-50">
-            <div className="container mx-auto px-4">
+            {/* <div className="container mx-auto px-4">
                 <div className="flex flex-wrap items-center justify-center -mx-4">
                     <div className="mb-16 lg:mb-0 max-w-2xl lg:w-1/2 px-4">
                         <a className="mb-6 inline-block text-3xl font-bold leading-none" href="#">
@@ -46,7 +46,7 @@ const Contacts = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </section>
 
     );
